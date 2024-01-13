@@ -1,0 +1,26 @@
+body,
+.flex,
+.img__beside,
+.creator
+{   display: flex;}
+   
+/* to center card */
+body,
+.img__beside {
+    justify-content: center ;
+    align-items: center;
+}
+
+/* to card stuff be in column */
+.card { flex-direction: column;}
+
+/* make distance between eth and days */
+.extra__info { justify-content: space-between;}
+
+.img__beside{ gap: .5rem;}
+
+.creator{ 
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem; 
+}
